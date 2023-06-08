@@ -1,0 +1,6 @@
+require("dotenv").config();
+const CLOUDINARY_NAME = process.env.CLOUDINARY_NAME;
+const CLOUDINARY_API_KEY = process.env.CLOUDINARY_API_KEY;
+const CLOUDINARY_SECRET = process.env.CLOUDINARY_SECRET;
+
+module.exports = { CLOUDINARY_NAME, CLOUDINARY_API_KEY, CLOUDINARY_SECRET };
